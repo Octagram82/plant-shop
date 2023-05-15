@@ -2,7 +2,12 @@
 export default {
   content: ["./resources/**/*.blade.php"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'open-sans': ['Open Sans', 'sans-serif'],
+        'unna': ['Unna', 'serif'],
+      },
+    },
   },
   plugins: [],
 }
